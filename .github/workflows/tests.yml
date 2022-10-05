@@ -17,10 +17,6 @@ defaults:
     shell: bash
 
 jobs:
-  pytest:
-    name: "🧪 Test package using pytest"
-    runs-on: ubuntu-latest
-
   syntax:
     name: "🧪 Check the package's syntax"
     runs-on: ubuntu-latest
